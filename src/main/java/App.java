@@ -10,8 +10,20 @@ public class App {
 		// TODO Auto-generated method stub
     	System.out.println("Welcome :  Axelor");
 	}
+    
+    private void helloWork() {
+		// TODO Auto-generated method stub
+    	System.out.println(" Hello Java Workholic !!!!");
+	}
+    
+    private void javaRunner() {
+		// TODO Auto-generated method stub
+    	System.out.println("Hello Java Developers !!!!");
+	}
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
         new App().welcome();
+        new App().javaRunner();
+        new App().helloWork();
     }
 }
